@@ -1,0 +1,93 @@
+/* Colors and fonts */
+
+body {
+	background-color: #311d3f;
+	color: #e23e57;
+	font-family: Open Sans Condensed, sans-serif;
+font-weight: 300;
+	
+}
+
+h1, h2 {
+	font-family: Arial black;
+text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+color: #522546;
+}
+
+h2 {  
+color: #88304e;
+font-weight: lighter;
+
+}
+a {
+	text-decoration: none;
+	color: rgb(60, 60, 60);
+}
+a:hover{
+	color: rgb(150, 150, 150);
+
+}
+.img-circle {
+	border-radius: 50%
+}
+
+
+/* Custom design with class */
+
+
+.card-white {
+	background: #eeeeee;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 15px 20px 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+.container {
+    width: 722px;
+    margin: 56px auto;
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+.list-inline{
+		list-style: none;
+		padding-left: 0px
+}
+.list-inline li{
+	display: inline;
+	padding-left: 10px
+}
+
+.btn-blue {
+	background-color: #404b69;
+	color: rgb(150, 150, 150);
+	padding: 15px 20px;
+	border-radius: 15px;
+}
+.btn-blue:hover{
+	color: rgb(60, 60, 60);
+	background-color: #eeeeee;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+/* Design adjustments using id */ 
+
+#introduction p{
+	margin-bottom: 45px;
+}
